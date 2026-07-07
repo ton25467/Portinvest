@@ -1,0 +1,47 @@
+{
+  "name": "frontend",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "typecheck": "nuxt typecheck"
+  },
+  "dependencies": {
+    "@iconify-json/lucide": "^1.2.114",
+    "@iconify-json/simple-icons": "^1.2.87",
+    "@lucide/vue": "^1.23.0",
+    "@pinia/nuxt": "^0.11.3",
+    "@vee-validate/zod": "^4.15.1",
+    "@vueuse/core": "^14.3.0",
+    "@vueuse/nuxt": "^14.3.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "echarts": "^6.1.0",
+    "lightweight-charts": "^5.2.0",
+    "lucide-vue-next": "^1.0.0",
+    "nuxt": "^4.4.8",
+    "pinia": "^3.0.4",
+    "radix-vue": "^1.9.17",
+    "reka-ui": "^2.10.1",
+    "shadcn-nuxt": "^2.7.4",
+    "tailwind-merge": "^3.6.0",
+    "tailwindcss": "^4.3.1",
+    "vee-validate": "^4.15.1",
+    "vue-echarts": "^8.0.1",
+    "vue-sonner": "^2.0.9",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "^1.16.0",
+    "@tailwindcss/postcss": "^4.3.2",
+    "@tailwindcss/vite": "^4.3.2",
+    "eslint": "^10.6.0",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "^6.0.3",
+    "vue-tsc": "^3.3.5"
+  }
+}
